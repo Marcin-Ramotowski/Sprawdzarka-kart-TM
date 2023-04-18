@@ -30,7 +30,7 @@
         <Label x:Name="E5" Content="Wszystko wpisane? &#xA;Naciśnij przycisk 'Wyświetl'" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="253,89,0,0" FontSize="16" Grid.Column="2"/>
         <ListBox x:Name="Lista" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="235" VerticalAlignment="Top" Width="772" Margin="10,174,0,0" Grid.RowSpan="2" SelectionChanged="Lista_SelectionChanged"/>
         <Button x:Name="Wyświetlanie" Content="Wyświetl" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="284,145,0,0" Click="Button_Click_3" Grid.Column="2"/>
-        <ComboBox x:Name="C2" Grid.Column="2" HorizontalAlignment="Left" Margin="94,98,0,0" VerticalAlignment="Top" Width="109">
+        <ComboBox x:Name="C2" Grid.Column="2" HorizontalAlignment="Left" Margin="94,98,0,0" VerticalAlignment="Top" Width="109" SelectionChanged="C2_SelectionChanged">
             <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
             <ComboBoxItem Content="3"/>
